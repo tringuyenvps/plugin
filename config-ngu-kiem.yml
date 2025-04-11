@@ -1,0 +1,8 @@
+# Cấu hình cho module Ngự Kiếm Phi Hành
+
+yeu_cau_item: "DIAMOND_SWORD"  # Vật phẩm yêu cầu để ngự kiếm
+cho_phep_bay: true              # Bật/tắt tính năng bay
+toc_do_phi_hanh: 1.0            # Tốc độ bay (có thể mở rộng trong tương lai)
+am_thanh_khi_bay: "ENTITY_ENDER_DRAGON_FLAP"  # Âm thanh khi bắt đầu bay
+hieu_ung: true                  # Bật hiệu ứng hạt (nếu có code hiệu ứng)
+can_permission: false           # Có cần permission đặc biệt không

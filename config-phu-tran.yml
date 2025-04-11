@@ -1,0 +1,74 @@
+# config-phu-tran.yml
+
+phu_tran:
+  co_ban:
+    mo_ta: "Phù trận cơ bản, tăng một lượng nhỏ sức mạnh."
+    buff:
+      sat_thuong: 5
+      toc_do: 2
+    vat_lieu:
+      - giay_phu: 1
+      - muc_phap: 2
+    ti_le_thanh_cong: 90
+    cap_toi_da: 3
+
+  ho_hoa:
+    mo_ta: "Phù trận Hỏa Hóa, tăng sát thương kỹ năng hỏa."
+    buff:
+      hoa_sat_thuong: 10
+    vat_lieu:
+      - giay_phu: 1
+      - hoa_tinh: 3
+    ti_le_thanh_cong: 75
+    cap_toi_da: 5
+
+  cuong_phong:
+    mo_ta: "Phù trận Cường Phong, tăng tốc độ di chuyển trong thời gian ngắn."
+    buff:
+      toc_do: 15
+    vat_lieu:
+      - giay_phu: 2
+      - phong_linh: 2
+    ti_le_thanh_cong: 70
+    cap_toi_da: 4
+
+  dia_chan:
+    mo_ta: "Phù trận Địa Chấn, làm chậm và gây choáng đối thủ xung quanh."
+    buff:
+      lam_cham: true
+      choang: true
+    vat_lieu:
+      - giay_phu: 2
+      - dia_thach: 4
+    ti_le_thanh_cong: 60
+    cap_toi_da: 3
+
+nang_cap:
+  ti_le_tang_theo_cap:
+    - cap: 1
+      cong: 0
+    - cap: 2
+      cong: -10
+    - cap: 3
+      cong: -20
+    - cap: 4
+      cong: -30
+    - cap: 5
+      cong: -50
+
+vat_pham_pha_che:
+  giay_phu:
+    ten: "§fGiấy Phù"
+    loai: PAPER
+  muc_phap:
+    ten: "§0Mực Pháp"
+    loai: INK_SAC
+  hoa_tinh:
+    ten: "§cHỏa Tinh"
+    loai: BLAZE_POWDER
+  phong_linh:
+    ten: "§bPhong Linh"
+    loai: FEATHER
+  dia_thach:
+    ten: "§6Địa Thạch"
+    loai: STONE

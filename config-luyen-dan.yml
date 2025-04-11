@@ -1,0 +1,79 @@
+# config-luyen-dan.yml
+
+# Các loại đan lô
+dan_lo:
+  co_ban:
+    do_ben: 100
+    xac_suat_tang: 0
+  trung_cap:
+    do_ben: 200
+    xac_suat_tang: 5
+  cao_cap:
+    do_ben: 300
+    xac_suat_tang: 10
+  tien_pham:
+    do_ben: 500
+    xac_suat_tang: 20
+
+# Tỷ lệ luyện đan thành công theo cấp độ đan
+ti_le_thanh_cong:
+  pho_thong: 90
+  trung_cap: 75
+  cao_cap: 60
+  truyen_thuyet: 40
+  tien_pham: 25
+
+# Danh sách công thức luyện đan
+cong_thuc:
+  huyen_dan:
+    cap: pho_thong
+    nguyen_lieu:
+      - linh_chi: 2
+      - hoa_lan_luc: 1
+    thoi_gian: 10
+
+  than_luc_dan:
+    cap: trung_cap
+    nguyen_lieu:
+      - hoa_lan_luc: 2
+      - xich_hoa: 2
+    thoi_gian: 20
+
+  kim_than_dan:
+    cap: cao_cap
+    nguyen_lieu:
+      - tu_linh_qua: 3
+      - huyen_tinh_thao: 2
+    thoi_gian: 30
+
+  tru_tam_dan:
+    cap: truyen_thuyet
+    nguyen_lieu:
+      - am_hoa: 3
+      - linh_nhan: 3
+      - tam_hoa: 1
+    thoi_gian: 45
+
+  hoa_sinh_tien_dan:
+    cap: tien_pham
+    nguyen_lieu:
+      - cuu_pham_lien_hoa: 1
+      - phuong_hoang_le: 2
+      - huyet_ngoc: 1
+    thoi_gian: 60
+
+# Buff nhận được khi dùng từng loại đan
+buff_dan:
+  huyen_dan:
+    regeneration: 1
+  than_luc_dan:
+    strength: 1
+  kim_than_dan:
+    health_boost: 2
+  tru_tam_dan:
+    resistance: 2
+    absorption: 2
+  hoa_sinh_tien_dan:
+    strength: 3
+    speed: 2
+    resistance: 2

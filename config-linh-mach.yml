@@ -1,0 +1,58 @@
+# config-linh-mach.yml
+
+# Các loại linh mạch mặc định
+linh_mach:
+  co_ban:
+    tang_toc_tu_luyen: 5  # phần trăm
+    cap: 1
+    nang_cap:
+      chi_phi: 100
+      item: linh_thach
+  trung_cap:
+    tang_toc_tu_luyen: 10
+    cap: 2
+    nang_cap:
+      chi_phi: 250
+      item: linh_thach_cao
+  cao_cap:
+    tang_toc_tu_luyen: 20
+    cap: 3
+    nang_cap:
+      chi_phi: 500
+      item: linh_thach_cao_cap
+  dia_linh:
+    tang_toc_tu_luyen: 35
+    cap: 4
+    nang_cap:
+      chi_phi: 1000
+      item: dia_mach
+  tien_mach:
+    tang_toc_tu_luyen: 50
+    cap: 5
+    nang_cap:
+      chi_phi: 2000
+      item: tinh_hoa_tien_mach
+
+# Khu vực linh mạch đậm đặc để tu luyện nhanh hơn
+khu_vuc_dac_biet:
+  - ten: "Hang Động Linh Khí"
+    vi_tri: world;100;64;200
+    tang_toc: 50
+  - ten: "Linh Hồ Tĩnh Lặng"
+    vi_tri: world_nether;30;60;90
+    tang_toc: 70
+
+# Tùy chọn cướp đoạt linh mạch từ người chơi khác
+cuop_linh_mach:
+  bat: true
+  yeu_cau:
+    cap_toi_thieu: 3
+    vat_pham_can: "lenh_bai_tieu_diet"
+    thong_bao: "§c{attacker} đã cướp linh mạch của {victim}!"
+
+# GUI hiển thị tu vi và linh mạch
+gui:
+  ten: "§aThông Tin Tu Vi & Linh Mạch"
+  slot_linh_mach: 10
+  slot_tu_vi: 13
+  slot_nang_cap: 16

@@ -1,0 +1,106 @@
+# config-phap-bao.yml
+
+phap_bao:
+  kim_long_kiem:
+    ten: "Kim Long Kiếm"
+    loai: "kiem"
+    pham_chat: "truyen_thuyet"
+    thuoc_tinh:
+      sat_thuong: 25
+      toc_do_danh: 1.6
+      buff: [STRENGTH, SPEED]
+    nguyen_lieu: ["huyen_thiet:3", "long_cot:1"]
+    ti_le_che_tao: 85
+
+  hoa_lien_lo:
+    ten: "Hỏa Liên Lô"
+    loai: "lo"
+    pham_chat: "hiem"
+    thuoc_tinh:
+      sat_thuong: 10
+      khang_hoa: true
+    nguyen_lieu: ["hoa_hoa:5", "cam_thach:2"]
+    ti_le_che_tao: 70
+
+  bach_ho_giap:
+    ten: "Bạch Hổ Giáp"
+    loai: "ao_giap"
+    pham_chat: "truyen_thuyet"
+    thuoc_tinh:
+      khang_vat_ly: 20
+      khang_phep: 10
+      buff: [RESISTANCE]
+    nguyen_lieu: ["da_bach_ho:4", "kim_loai_cao_cap:2"]
+    ti_le_che_tao: 65
+
+  huyen_thien_au:
+    ten: "Huyền Thiên Ấu"
+    loai: "au"
+    pham_chat: "than_thoai"
+    thuoc_tinh:
+      ho_tro_tu_luyen: true
+      tang_thoi_gian_buff: 30
+    nguyen_lieu: ["linh_qua:5", "thu_khi_tinh_the:2"]
+    ti_le_che_tao: 50
+
+  viem_long_thuong:
+    ten: "Viêm Long Thương"
+    loai: "thuong"
+    pham_chat: "than_thoai"
+    thuoc_tinh:
+      sat_thuong: 35
+      dot_pha: true
+      buff: [FIRE_RESISTANCE, STRENGTH]
+    nguyen_lieu: ["long_cot:2", "hoa_thach:3"]
+    ti_le_che_tao: 40
+
+  phi_kiem_kinh_thien:
+    ten: "Phi Kiếm Kinh Thiên"
+    loai: "phi_kiem"
+    pham_chat: "truyen_thuyet"
+    thuoc_tinh:
+      sat_thuong: 30
+      toc_do_bay: 1.5
+      buff: [SPEED, JUMP_BOOST]
+    nguyen_lieu: ["tinh_thach:3", "phi_kiem_hon:1"]
+    ti_le_che_tao: 55
+
+  thanh_lien_an:
+    ten: "Thanh Liên Ấn"
+    loai: "an"
+    pham_chat: "hiem"
+    thuoc_tinh:
+      tang_buff_huyet_ap: true
+      tang_tu_luyen: 10
+    nguyen_lieu: ["hoa_thach:2", "thien_thach_xanh:1"]
+    ti_le_che_tao: 70
+
+  cuong_hoa_thach:
+    ten: "Cường Hóa Thạch"
+    loai: "vat_pham"
+    pham_chat: "thong_thuong"
+    thuoc_tinh:
+      ho_tro_nang_cap: true
+    nguyen_lieu: ["da_nang_cap:1"]
+    ti_le_che_tao: 100
+
+  huyen_am_lu:
+    ten: "Huyền Ám Lư"
+    loai: "lo"
+    pham_chat: "truyen_thuyet"
+    thuoc_tinh:
+      sat_thuong: 15
+      giam_thoi_gian_luyen_dan: 20
+    nguyen_lieu: ["da_huyen_am:2", "linh_thach:3"]
+    ti_le_che_tao: 60
+
+  than_kiem_thien_dao:
+    ten: "Thần Kiếm Thiên Đạo"
+    loai: "kiem"
+    pham_chat: "than_thoai"
+    thuoc_tinh:
+      sat_thuong: 50
+      toc_do_danh: 2.0
+      buff: [DAMAGE_RESISTANCE, SPEED, STRENGTH]
+    nguyen_lieu: ["thien_dao_thach:5", "kiem_co:1"]
+    ti_le_che_tao: 20

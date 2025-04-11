@@ -1,0 +1,24 @@
+bosses:
+  fire_warrior:
+    world: world_nether
+    health: 300.0
+    spawn-location: [100, 70, 100]
+    loot:
+      - DIAMOND:3
+      - BLAZE_ROD:5
+      - NETHERITE_INGOT:1
+    quest:
+      name: "Tiêu diệt Chiến Binh Lửa"
+      reward: "EXP:500,ITEM:DIAMOND_SWORD"
+
+  void_dragon:
+    world: world_the_end
+    health: 500.0
+    spawn-location: [0, 80, 0]
+    loot:
+      - ENDER_PEARL:10
+      - DRAGON_BREATH:2
+      - TOTEM_OF_UNDYING:1
+    quest:
+      name: "Đánh bại Long Hồn Hư Vô"
+      reward: "EXP:1000,ITEM:ELYTRA"

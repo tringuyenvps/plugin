@@ -1,0 +1,69 @@
+tong_mon:
+  danh_sach:
+    bach_kiem:
+      ten: "§fBạch Kiếm Sơn"
+      mo_ta: "Tông môn danh giá với kiếm đạo thâm sâu."
+      tru_so: "X:100 Y:70 Z:-200"
+      buff:
+        kiem_dao: 2
+        toc_do: 1
+      ky_nang_dac_biet: "Kiếm Ý Bạch Ảnh"
+
+    hoa_son:
+      ten: "§dHoa Sơn Phái"
+      mo_ta: "Lấy kiếm và khí làm nền tảng, tu luyện song hành."
+      tru_so: "X:-300 Y:65 Z:120"
+      buff:
+        cong_phap: 1
+        suc_manh: 2
+      ky_nang_dac_biet: "Hoa Khai Vạn Vật"
+
+    thanh_am:
+      ten: "§aThanh Âm Cốc"
+      mo_ta: "Tu luyện bằng âm luật, điều khiển cảm xúc và thần trí."
+      tru_so: "X:80 Y:80 Z:300"
+      buff:
+        than_thuc: 2
+        hoi_phuc: 1
+      ky_nang_dac_biet: "Âm Vận Tâm Hồn"
+
+cap_bac:
+  1:
+    ten: "§7Đệ tử ngoại môn"
+    quyen:
+      - xem_tu_vi
+    yeu_cau:
+      kinh_nghiem: 0
+
+  2:
+    ten: "§fĐệ tử nội môn"
+    quyen:
+      - xem_tu_vi
+      - su_dung_gui
+    yeu_cau:
+      kinh_nghiem: 200
+
+  3:
+    ten: "§bTrưởng lão"
+    quyen:
+      - xem_tu_vi
+      - mo_gui_tong_mon
+      - cap_phat_vat_pham
+    yeu_cau:
+      kinh_nghiem: 600
+
+  4:
+    ten: "§6Tông chủ"
+    quyen:
+      - tat_ca
+    yeu_cau:
+      kinh_nghiem: 1500
+
+vat_pham:
+  len_cap:
+    vat_pham_can:
+      - tu_luyen_dan: 3
+      - linh_thach: 5
+  gia_nhap:
+    phi:
+      - linh_thach: 10

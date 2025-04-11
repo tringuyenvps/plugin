@@ -1,0 +1,65 @@
+# config-than-thuc.yml
+
+than_thuc:
+  cap_do:
+    1:
+      mo_ta: "Thần thức sơ khai, có thể cảm nhận kẻ địch xung quanh trong phạm vi nhỏ."
+      pham_vi: 5
+      buff:
+        toc_do_phan_ung: 2
+      nang_cap_can:
+        kinh_nghiem: 100
+        nguyen_lieu:
+          - tinh_hon: 2
+
+    2:
+      mo_ta: "Thần thức mở rộng, giúp đọc suy nghĩ đơn giản của kẻ địch."
+      pham_vi: 10
+      buff:
+        toc_do_phan_ung: 4
+        phan_tich: 1
+      nang_cap_can:
+        kinh_nghiem: 250
+        nguyen_lieu:
+          - tinh_hon: 5
+          - than_hon: 1
+
+    3:
+      mo_ta: "Thần thức cường hóa, có thể cảm nhận ý đồ tấn công và phản ứng nhanh."
+      pham_vi: 15
+      buff:
+        toc_do_phan_ung: 6
+        tranh_sat_thuong: 10
+      nang_cap_can:
+        kinh_nghiem: 500
+        nguyen_lieu:
+          - tinh_hon: 8
+          - than_hon: 3
+          - hon_luc: 1
+
+    4:
+      mo_ta: "Thần thức thấu thị, có thể nhìn xuyên địa hình và cảm ứng linh khí."
+      pham_vi: 20
+      buff:
+        nhin_xuyen: true
+        toc_do_phan_ung: 8
+        hoi_phuc_nang_luong: 5
+      nang_cap_can:
+        kinh_nghiem: 1000
+        nguyen_lieu:
+          - hon_luc: 3
+          - than_tinh: 2
+
+vat_pham:
+  tinh_hon:
+    ten: "§dTinh Hồn"
+    loai: GHAST_TEAR
+  than_hon:
+    ten: "§5Thần Hồn"
+    loai: ENDER_PEARL
+  hon_luc:
+    ten: "§9Hồn Lực"
+    loai: AMETHYST_SHARD
+  than_tinh:
+    ten: "§bThần Tinh"
+    loai: NETHER_STAR

@@ -1,0 +1,45 @@
+nhiemvu:
+  nv1:
+    ten: "Trừ Yêu Thôn Làng"
+    mo_ta: "Giúp dân làng tiêu diệt 10 zombie đang quấy rối vào ban đêm."
+    loai: "tieu_diet"
+    muc_tieu: "ZOMBIE"
+    so_luong: 10
+    thuong:
+      kinh_nghiem: 100
+      vang: 50
+      vat_pham:
+        - "iron_sword:1"
+        - "gold_ingot:3"
+
+  nv2:
+    ten: "Thu Thập Linh Thảo"
+    mo_ta: "Thu thập 8 Linh Thảo từ khu rừng cấm."
+    loai: "thu_thap"
+    muc_tieu: "linh_thao"
+    so_luong: 8
+    thuong:
+      kinh_nghiem: 70
+      vat_pham:
+        - "healing_pill:2"
+
+  nv3:
+    ten: "Gặp Trưởng Lão"
+    mo_ta: "Tìm đến Trưởng Lão tại Tông Môn để nhận lời dạy."
+    loai: "doi_thoai"
+    npc: "truong_lao"
+    thuong:
+      kinh_nghiem: 50
+      mo_khoa: "ky_nang:tu_luyen"
+
+  nv4:
+    ten: "Phá Hủy Phù Trận Ma Quái"
+    mo_ta: "Phá huỷ một Phù Trận đang hấp thụ linh lực."
+    loai: "tac_dong"
+    muc_tieu: "phu_tran_bi_an"
+    thuong:
+      kinh_nghiem: 120
+      vat_pham:
+        - "phu_tran_manh:1"
+
+tong_so_nhiem_vu: 4

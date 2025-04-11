@@ -1,0 +1,91 @@
+# Cấu hình Cảnh Giới cho plugin Tu Tiên
+canh-gioi:
+  - name: Luyện Khí
+    level: 1
+    required-exp: 0
+    buffs:
+      max-health: 20
+      strength: 0
+      speed: 0
+      damage: 0
+
+  - name: Trúc Cơ
+    level: 2
+    required-exp: 100
+    buffs:
+      max-health: 24
+      strength: 1
+      speed: 0
+      damage: 1
+
+  - name: Kim Đan
+    level: 3
+    required-exp: 300
+    buffs:
+      max-health: 28
+      strength: 1
+      speed: 1
+      damage: 2
+
+  - name: Nguyên Anh
+    level: 4
+    required-exp: 600
+    buffs:
+      max-health: 32
+      strength: 2
+      speed: 1
+      damage: 3
+
+  - name: Hóa Thần
+    level: 5
+    required-exp: 1000
+    buffs:
+      max-health: 36
+      strength: 2
+      speed: 2
+      damage: 4
+
+  - name: Luyện Hư
+    level: 6
+    required-exp: 1500
+    buffs:
+      max-health: 40
+      strength: 3
+      speed: 2
+      damage: 5
+
+  - name: Hợp Thể
+    level: 7
+    required-exp: 2100
+    buffs:
+      max-health: 44
+      strength: 3
+      speed: 3
+      damage: 6
+
+  - name: Đại Thừa
+    level: 8
+    required-exp: 2800
+    buffs:
+      max-health: 48
+      strength: 4
+      speed: 3
+      damage: 8
+
+  - name: Độ Kiếp
+    level: 9
+    required-exp: 3600
+    buffs:
+      max-health: 52
+      strength: 5
+      speed: 4
+      damage: 10
+
+  - name: Phân Thần
+    level: 10
+    required-exp: 4500
+    buffs:
+      max-health: 56
+      strength: 6
+      speed: 4
+      damage: 12

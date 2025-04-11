@@ -1,0 +1,76 @@
+# config-bi-canh.yml
+
+bi_canh:
+  - id: bich_phong_coc
+    ten: "Bích Phong Cốc"
+    pham_chat: "pho_thong"
+    cap_do: 10
+    thoi_gian_mo: 600 # giây
+    boss:
+      ten: "Mãng Xà Huyết"
+      mau: 200
+      sat_thuong: 15
+      ky_nang:
+        - doc_to
+        - can_quet_duoi
+      loot:
+        - "dan_duoc_trung_cap:2"
+        - "ngoc_phong_an:1"
+        - "phap_bao_ngau_nhien"
+    ti_le_xuat_hien: 40
+
+  - id: hoa_lien_canh
+    ten: "Hỏa Liên Cảnh"
+    pham_chat: "hiem"
+    cap_do: 25
+    thoi_gian_mo: 900
+    boss:
+      ten: "Viêm Tượng"
+      mau: 400
+      sat_thuong: 30
+      ky_nang:
+        - phun_lua
+        - nhiet_no
+      loot:
+        - "dan_hoa_than:1"
+        - "phap_bao_truyen_thuyet:1"
+        - "ky_vat_bi_can"
+    ti_le_xuat_hien: 25
+
+  - id: am_gioi_canh
+    ten: "Âm Giới Cảnh"
+    pham_chat: "than_bi"
+    cap_do: 50
+    thoi_gian_mo: 1200
+    boss:
+      ten: "Hắc Hồn Vương"
+      mau: 700
+      sat_thuong: 45
+      ky_nang:
+        - dot_kich_am_anh
+        - vo_hinh
+        - ma_hoa_linh_hon
+      loot:
+        - "dan_tam_linh:2"
+        - "phap_bao_than_thoai"
+        - "an_linh_ngoc:1"
+    ti_le_xuat_hien: 10
+
+  - id: cuong_gioi_bi_canh
+    ten: "Cuồng Giới Bí Cảnh"
+    pham_chat: "dai_than"
+    cap_do: 80
+    thoi_gian_mo: 1500
+    boss:
+      ten: "Thần Thú Cuồng Hống"
+      mau: 1000
+      sat_thuong: 70
+      ky_nang:
+        - cuong_no
+        - phan_cong
+        - hoang_sat
+      loot:
+        - "dan_phap_than:1"
+        - "tien_ngoc_vo_cuc:1"
+        - "phap_bao_vo_danh:1"
+    ti_le_xuat_hien: 5

@@ -1,0 +1,46 @@
+name: XianxiaTuTien
+version: 1.0
+main: dev.xianxia.XianxiaPlugin
+api-version: 1.21.1
+author: YourName
+commands:
+  tuluyen:
+    description: Mở giao diện tu luyện
+    usage: /tuluyen
+  canhgioi:
+    description: Mở giao diện cảnh giới
+    usage: /canhgioi
+  thienkiep:
+    description: Gọi thiên kiếp khi đủ điều kiện đột phá
+    usage: /thienkiep
+  phapbao:
+    description: Quản lý pháp bảo
+    usage: /phapbao
+  bicanh:
+    description: Tham gia bí cảnh sự kiện
+    usage: /bicanh
+  luyendan:
+    description: Mở giao diện luyện đan
+    usage: /luyendan
+  phutran:
+    description: Quản lý phù trận
+    usage: /phutran
+  thanthuc:
+    description: Kiểm tra thần thức
+    usage: /thanthuc
+  tongmon:
+    description: Quản lý tông môn
+    usage: /tongmon
+  nhiemvu:
+    description: Xem nhiệm vụ
+    usage: /nhiemvu
+  thegioi:
+    description: Thế giới đặc biệt (End, Nether)
+    usage: /thegioi
+  ngukiem:
+    description: Kích hoạt ngự kiếm phi hành
+    usage: /ngukiem
+permissions:
+  xianxia.admin:
+    description: Quyền quản trị tất cả tính năng plugin
+    default: op

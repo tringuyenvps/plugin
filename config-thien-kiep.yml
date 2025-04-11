@@ -1,0 +1,50 @@
+# Cấu hình thiên kiếp khi đột phá cảnh giới
+
+thien-kiep:
+  enable: true
+
+  canh-gioi:
+    Trúc Cơ:
+      thunder-count: 3
+      damage-per-hit: 4
+      delay-between: 20
+      boss-enabled: false
+
+    Kim Đan:
+      thunder-count: 5
+      damage-per-hit: 6
+      delay-between: 25
+      boss-enabled: true
+      boss:
+        name: "Kiếp Lôi Thần"
+        health: 100
+        damage: 6
+        drop-items:
+          - "DAN_KIM_DAN"
+          - "LINH_THACH"
+
+    Nguyên Anh:
+      thunder-count: 7
+      damage-per-hit: 8
+      delay-between: 30
+      boss-enabled: true
+      boss:
+        name: "Hóa Thần Lôi Vương"
+        health: 150
+        damage: 10
+        drop-items:
+          - "DAN_NGUYEN_ANH"
+          - "BÍ_TỊCH_BÍ_CẢNH"
+
+    Hóa Thần:
+      thunder-count: 10
+      damage-per-hit: 10
+      delay-between: 40
+      boss-enabled: true
+      boss:
+        name: "Lôi Thần Tối Cao"
+        health: 200
+        damage: 14
+        drop-items:
+          - "PHAP_BAO_CAO_CAP"
+          - "DAN_CAO_CAP"
